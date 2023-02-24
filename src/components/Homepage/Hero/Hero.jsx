@@ -1,8 +1,8 @@
 import React from "react";
-import AI from "../../../assets/Ai.jpg";
-import AI3 from "../../../assets/Ai3.png";
-import AI4 from "../../../assets/Ai4.png";
-import AI5 from "../../../assets/Ai5.png";
+import AI from "../../../assets/Ai.webp";
+import AI3 from "../../../assets/Ai3.webp";
+import AI4 from "../../../assets/Ai4.webp";
+import AI5 from "../../../assets/Ai5.webp";
 const images = [AI, AI3, AI4, AI5];
 const Hero = () => {
   return (

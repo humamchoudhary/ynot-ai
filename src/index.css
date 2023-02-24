@@ -1,0 +1,124 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.levite_wrapper {
+  /* position: relative; */
+  /* transform: scale(0.3); */
+}
+
+.levite_wrapper img {
+  /* width: 100%; */
+  /* position: absolute; */
+  /* left: 0; */
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 5s ease-in-out;
+  /* border-radius: 45px; */
+  height: 800px;
+  overflow: hidden;
+}
+@keyframes crossfade0 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes crossfade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes crossfade2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes crossfade3 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+}
+
+.levite_wrapper img.i1 {
+  /* -o, -webkit, -moz */
+
+  animation-name: "crossfade";
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-direction: alternate;
+}
+.levite_wrapper img.i2 {
+  /* -o, -webkit, -moz */
+
+  animation-name: "crossfade2";
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-direction: alternate;
+}
+.levite_wrapper img.i3 {
+  /* -o, -webkit, -moz */
+
+  animation-name: "crossfade3";
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-direction: alternate;
+}
+
+.levite_wrapper img.i0 {
+  /* -o, -webkit, -moz */
+
+  animation-name: "crossfade0";
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-direction: alternate;
+}

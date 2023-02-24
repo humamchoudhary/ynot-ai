@@ -1,0 +1,101 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Satisfy&display=swap";
+@font-face {
+  font-family: "Always Smile"; /*Can be any text*/
+  src: local("Always Smile"), url("./fonts/Always Smile.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --color-bg: #f6fff8;
+  --color-cta: #49d0ee;
+  --color-mid: #03045e;
+  --color-dark: #2b2d42;
+  --transition: all 400ms ease;
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+html {
+  scroll-behavior: smooth;
+  background: var(--color-bg);
+}
+:-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+.main-marg {
+  padding-left: 278px;
+  padding-right: 278px;
+}
+.highlight {
+  font-family: "Satisfy", cursive;
+}
+.hero {
+  height: 800px;
+  h1 {
+    transform: translateY(-50%);
+  }
+  .overlay {
+    height: 800px;
+    opacity: 40%;
+  }
+}
+.nav__menu-item {
+  display: inline-block;
+  position: relative;
+
+  &:hover {
+    .nav__submenu {
+      display: block;
+    }
+  }
+}
+
+.nav__submenu {
+  font-weight: 300;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  width: 180px;
+}
+
+.nav__submenu-item {
+  &:hover {
+    background: rgba(#838383, 0.1);
+  }
+}
+
+.client-box {
+  height: 356px;
+  width: 1088px;
+}
+
+.user_prof {
+  height: 218px;
+  width: 218px;
+}
+.msg {
+  font-family: "Always Smile", cursive;
+  font-size: 2.5rem;
+}
+.service-item {
+  height: 417px;
+  width: 298px;
+}
+.blog-img {
+  width: 800px;
+}
+.blog-section {
+  width: 800px;
+}

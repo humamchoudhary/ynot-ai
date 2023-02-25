@@ -19,8 +19,8 @@ const Navbar = () => {
     <nav
       className={
         navbar
-          ? "sticky top-0 flex flex-row justify-between items-center self-auto pt-5 pb-4 w-screen z-30 text-light bg-cta2 main-marg transition-colors nav"
-          : "sticky top-0 flex flex-row justify-between items-center self-auto pt-5 pb-4 w-screen z-30 text-light bg-mid bg-opacity-0 main-marg transition-colors nav"
+          ? "sticky top-0 flex flex-row justify-between items-center self-auto pt-5 pb-4 w-screen z-50 text-light bg-cta2 main-marg transition-colors nav"
+          : "sticky top-0 flex flex-row justify-between items-center self-auto pt-5 pb-4 w-screen z-50 text-light bg-mid bg-opacity-0 main-marg transition-colors nav"
       }
     >
       <HashLink className="text-4xl font-['Poppins'] font-extrabold" to="/">

@@ -20,6 +20,7 @@ module.exports = {
       light: "#F6FFF8",
       hover: "#C9C9C9",
       cta2: "#8FDBE9",
+      amber: "rgb(252 211 77)",
     },
     extend: {},
   },

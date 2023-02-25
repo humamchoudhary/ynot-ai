@@ -99,3 +99,32 @@ body {
 .blog-section {
   width: 800px;
 }
+.html-render {
+  a {
+    padding: 2px;
+    // background-color: #33cef12f;
+    transition: all 150ms ease-in-out;
+    text-decoration: underline wavy;
+    // text-decoration-color: #33cef185;
+    &:hover {
+      cursor: pointer;
+      background-color: #33cef185;
+    }
+  }
+  .high {
+    padding: 2px;
+    background-color: #33cef12f;
+    transition: all 150ms ease-in-out;
+    &:hover {
+      cursor: pointer;
+      background-color: #33cef185;
+    }
+  }
+  .quote {
+    background-color: #cfcfcf96;
+    padding: 2rem;
+    border-radius: 3px;
+    margin: 1rem 0rem 1rem 1rem;
+    font-style: italic;
+  }
+}
